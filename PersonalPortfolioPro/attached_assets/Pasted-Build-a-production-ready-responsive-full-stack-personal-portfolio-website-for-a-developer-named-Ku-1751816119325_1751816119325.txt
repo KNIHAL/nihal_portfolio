@@ -1,0 +1,42 @@
+Build a production-ready, responsive, full-stack personal portfolio website for a developer named Kumar Nihal. It should be a single-page application (SPA) but dynamic, scalable, SEO-optimized, and designed for long-term use.
+
+🧑‍💻 USER PROFILE:
+- Name: Kumar Nihal
+- Role: AI Agent Developer | Full Stack SaaS Builder | Prompt Engineer
+- Skills: CrewAI, Langchain, Cloud(GCP, AWS), Composio, Replit AI, Python, Prompt Engineering
+
+📦 FEATURES REQUIRED:
+
+🔸 General
+- Fully responsive on all screen sizes (mobile, tablet, desktop)
+- Dark mode enabled by default with a light/dark toggle switch
+- Smooth, subtle animations for section transitions (no neon or flashy effects)
+- Clean, modern UI with a mix of minimal + tech style
+- SEO optimized: use meta tags, alt texts, schema markup for portfolio projects
+- Fast load time, performance-first layout
+
+🔸 Sections:
+1. **Navbar** – fixed top with scroll-to anchors for each section: Home, Projects, Skills, About, Contact
+2. **Hero Section** – Circular profile photo, bold intro headline, short role description, two buttons: [Download Resume], [View Projects]
+3. **Projects Section** – Dynamic cards pulling from backend or JSON, each with:
+   - Title, short description
+   - Screenshot or GIF
+   - Links to GitHub / Live demo
+4. **Skills Section** – Display skills as icon tags or a responsive grid
+5. **About Me Section** – Timeline-style or paragraph with story: Started learning AI agents in April 2025, self-taught journey, SaaS focus
+6. **Contact Section** – Working form (name, email, message) that stores data in backend (MySQL/Firebase/Supabase)
+7. **Footer** – Text: “© 2025 Kumar Nihal • Made with Replit AI & hands-on code 💻”
+
+🔧 Tech Stack:
+- Use JavaScript (preferred: Next.js or React + Express) or Python (Flask/FastAPI) for backend
+- Use MySQL, Supabase, or Firebase for data storage (any one is fine)
+- Form submissions should be stored in DB, with validation
+- Resume should be downloadable from a public static asset
+- Use clean file structure: separate backend, frontend, and assets
+- Make code editable and GitHub-push ready
+
+💡 Bonus:
+- Include simple admin config in backend to manage projects from JSON or DB (optional)
+- Add Open Graph meta tags for social media previews
+- Keep code easy to migrate to custom domain (e.g., nihal.dev or Vercel/AWS hosting)
+

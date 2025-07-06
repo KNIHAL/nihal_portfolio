@@ -1,0 +1,114 @@
+You are an expert full-stack web developer and UI/UX designer. Your task is to create a **production-ready**, **responsive**, and **dynamic** personal portfolio website for **Kumar Nihal**, an AI Agent Developer and Full Stack SaaS Builder.
+
+This site must be built with clean code, clear structure, professional layout, and optimized for performance, SEO, and future expansion.
+
+---
+
+👤 USER PROFILE:
+- Name: Kumar Nihal
+- Title: AI Agent Developer | Full Stack SaaS Builder
+- Skills: CrewAI, Langchain, Cloud(GCP, AWS), GitHub API, Composio, Replit AI, Python, Prompt Engineering
+- Started building AI Agents in April 2025, self-taught builder
+
+---
+
+🔧 TECH STACK:
+- Frontend: **React** (with Tailwind CSS or clean CSS)
+- Backend: **Express.js** (or FastAPI if using Python)
+- Database: **Supabase**, **Firebase**, or **MySQL** — use any one
+- Animations: Use **Framer Motion** or **CSS transitions**
+- Deployment-ready: All code should be organized to push on GitHub and ready for custom domain
+
+---
+
+---
+
+🎨 DESIGN GUIDELINES:
+- Background: Off-white or light tech cream
+- Default mode: Dark mode ON (with toggle switch to light)
+- Font: Modern sans-serif (e.g., Poppins, Inter)
+- Style: Minimal + modern tech vibe
+- Animations: Subtle fade-in / slide-in on scroll (Framer Motion or CSS)
+
+---
+
+📌 WEBSITE SECTIONS:
+
+### 1. Navbar (Sticky Top)
+- Logo text: “Nihal.dev” (left)
+- Right: Toggle switch for light/dark + Hamburger menu for mobile
+- Anchor links: Home, Projects, Skills, About, Contact
+
+---
+
+### 2. Hero Section
+- Layout: **Left side** → circular profile image  
+           **Right side** → Name, headline, description, buttons
+- Headline: “Hi, I’m Kumar Nihal”
+- Subtext: “AI Agent Developer | Full Stack SaaS Builder”
+- Buttons: [📄 Download Resume] [🚀 View Projects]
+- Resume should download from a static public file
+
+---
+
+### 3. Projects Section
+- Fetch projects from backend or JSON
+- Display in responsive **card layout**, each with:
+  - Title
+  - Short description
+  - Screenshot or GIF
+  - Tech stack tags (Python, React, etc.)
+  - Links: GitHub + Live demo
+- Add tabs or filters (e.g., "AI Agents", "Web Apps")
+
+---
+
+### 4. Skills Section
+- Show skills in responsive icon grid
+- Optionally group by category: Languages, Frameworks, Tools
+
+---
+
+### 5. About Me Section
+- Layout: Timeline-style or paragraph
+- Include:
+  - Started building AI Agents in April 2025
+  - Self-taught learner
+  - Focus on agent workflows, automation, and SaaS
+- Keep short, sharp, and personal
+
+---
+
+### 6. Contact Section
+- Contact form (Name, Email, Message)
+- Validate form on backend and store data in DB (Supabase / Firebase / MySQL)
+- Also add a `mailto:` link for quick contact
+
+---
+
+### 7. Footer
+- Text: “© 2025 Kumar Nihal • Made with Replit AI & hands-on code 💻”
+- Include social media icons (LinkedIn, GitHub)
+
+---
+
+🔍 SEO & META
+- Add meta tags: title, description, Open Graph
+- Add alt tags on all images
+- Schema markup for project cards if possible
+- Fast load times, lazy load images if needed
+
+---
+
+💡 OPTIONAL:
+- Add a **Blog section** (can be placeholder or Markdown-based)
+- Add simple backend admin route to update project list (optional)
+
+---
+
+🧠 OUTPUT EXPECTATIONS:
+- Provide code as complete full-stack project with folders
+- Include inline comments where appropriate
+- Ensure the project runs locally with simple instructions
+
+
